@@ -1,0 +1,10 @@
+@use './common' as *;
+// 같은 scss 파일 끼리 연결하려면 상대경로로 지정한다
+
+body {
+  background-color: $pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
